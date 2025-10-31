@@ -477,7 +477,7 @@ async def establish_chat_connection(ip, port, AutHToKen, key, iv, LoGinDaTaUncRy
         await asyncio.sleep(reconnect_delay)
 
 async def initialize_gaming_session():
-    user_credentials = ("BOT ID", "PASSWORD")
+    user_credentials = ("4259045029", "8C8048E8767FA7B81EB69DBDDE26125A5CC360AF88E52F4CF6C132FC28D1E161")
     # ENTER YOUR GUEST ID AND PASSWORD HERE
     user_id, auth_key = user_credentials
     
